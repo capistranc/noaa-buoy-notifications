@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+################ UI ################
 
 # dependencies
 /ui/node_modules
@@ -30,6 +30,7 @@
 /ui/.env.test.local
 /ui/.env.production.local
 
+################ Api ################
 
 # Logs
 /api/logs
@@ -44,6 +45,7 @@
 
 # Transpiled files
 /api/build/
+/api/dist/
 
 # VS Code
 /api/.vscode
